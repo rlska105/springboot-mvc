@@ -36,7 +36,6 @@ dependencies {
     testAnnotationProcessor('org.projectlombok:lombok') //lombok version error 방지
     testCompile('org.springframework.boot:spring-boot-starter-test')
     compile('org.springframework.session:spring-session-jdbc')
-
     compile("org.mariadb.jdbc:mariadb-java-client")
     implementation 'junit:junit:4.12'
     implementation 'junit:junit:4.12'

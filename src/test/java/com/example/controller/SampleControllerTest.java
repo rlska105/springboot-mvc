@@ -30,7 +30,7 @@ public class SampleControllerTest {
 
         mockMvc.perform(get("/sample"))
                 .andExpect(status().isOk())
-                .andExpect(content().string("sample Kee"))
+                .andExpect(content().string("sample"))
                 .andDo(print());
     }
 }

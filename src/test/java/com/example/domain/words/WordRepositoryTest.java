@@ -19,7 +19,7 @@ import static org.junit.Assert.assertTrue;
 public class WordRepositoryTest {
 
     @Autowired
-    WordRepository wordRepository;
+    private WordRepository wordRepository;
 
     @After
     public void cleanup(){
@@ -39,7 +39,6 @@ public class WordRepositoryTest {
         List<Words> wordsList = wordRepository.findAll();
 
         Words words = wordsList.get(0);
-
         assertThat(words.getWord()).isEqualTo(word);
         assertThat(words.getMeaning()).isEqualTo(meaning);
     }

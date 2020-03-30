@@ -22,8 +22,8 @@ public class SampleRestController {
     }
 
     @PostMapping("/words")
-    public void saveWords(@RequestBody WordsSaveRequestDto dto) {
-        wordsService.save(dto);
+    public Long saveWords(@RequestBody WordsSaveRequestDto dto) {
+        return wordsService.save(dto);
     }
 
 }

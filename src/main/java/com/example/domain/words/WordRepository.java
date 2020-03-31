@@ -8,6 +8,6 @@ import java.util.stream.Stream;
 public interface WordRepository extends JpaRepository <Words, Long> {
     @Query("SELECT p " +
             "FROM Words p " +
-            "ORDER BY p.id DESC")
+            "ORDER BY p.id ASC")
     Stream<Words> findAllDesc();
 }

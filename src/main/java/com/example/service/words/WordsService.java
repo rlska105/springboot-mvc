@@ -21,12 +21,11 @@ public class WordsService {
     public Long save(WordsSaveRequestDto dto) {
         return wordRepository.save(dto.toEntity()).getId();
     }
+
     @Transactional
     public List<WordsMainResponseDto> findAllDesc() {
         return wordRepository.findAllDesc()
                 .map(WordsMainResponseDto::new)
                 .collect(Collectors.toList());
     }
-
-
 }

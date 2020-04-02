@@ -8,8 +8,6 @@
       <change afterPath="$PROJECT_DIR$/springboot-mvc/src/main/resources/templates/layout/header.mustache" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/springboot-mvc/src/main/resources/templates/main.mustache" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/springboot-mvc/src/main/resources/templates/words-save.mustache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springboot-mvc" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-mvc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springboot-mvc/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-mvc/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springboot-mvc/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-mvc/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />

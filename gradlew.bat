@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @rem
 @rem Copyright 2015 the original author or authors.
 @rem
@@ -14,6 +15,8 @@
 @rem limitations under the License.
 @rem
 
+=======
+>>>>>>> 0ea4f528907b12b745734064056c71feeb2e250f
 @if "%DEBUG%" == "" @echo off
 @rem ##########################################################################
 @rem
@@ -29,11 +32,16 @@ if "%DIRNAME%" == "" set DIRNAME=.
 set APP_BASE_NAME=%~n0
 set APP_HOME=%DIRNAME%
 
+<<<<<<< HEAD
 @rem Resolve any "." and ".." in APP_HOME to make it shorter.
 for %%i in ("%APP_HOME%") do set APP_HOME=%%~fi
 
 @rem Add default JVM options here. You can also use JAVA_OPTS and GRADLE_OPTS to pass JVM options to this script.
 set DEFAULT_JVM_OPTS="-Xmx64m" "-Xms64m"
+=======
+@rem Add default JVM options here. You can also use JAVA_OPTS and GRADLE_OPTS to pass JVM options to this script.
+set DEFAULT_JVM_OPTS="-Xmx64m"
+>>>>>>> 0ea4f528907b12b745734064056c71feeb2e250f
 
 @rem Find java.exe
 if defined JAVA_HOME goto findJavaFromJavaHome

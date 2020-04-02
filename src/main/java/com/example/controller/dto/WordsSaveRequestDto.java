@@ -8,7 +8,6 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 @Getter
-@Setter
 @NoArgsConstructor
 public class WordsSaveRequestDto {
 
@@ -20,7 +19,6 @@ public class WordsSaveRequestDto {
         this.word = word;
         this.meaning = meaning;
     }
-
 
     public Words toEntity(){
         return Words.builder()

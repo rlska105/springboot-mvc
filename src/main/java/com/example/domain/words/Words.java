@@ -5,42 +5,30 @@ import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.*;
 
 @Getter
 @NoArgsConstructor
 @Entity
 public class Words extends BaseTimeEntity {
 
-    private String word;
-    private String meaning;
-
-
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    public String getWord() {
-        return word;
-    }
+    @Column(length = 500, nullable = false)
+    private String word;
 
-    public void setWord(String word) {
-        this.word = word;
-    }
-
-    public String getMeaning() {
-        return meaning;
-    }
-
-    public void setMeaning(String meaning) {
-        this.meaning = meaning;
-    }
+    @Column(columnDefinition = "TEXT", nullable = false)
+    private String meaning;
 
     @Builder
     public Words(String word, String meaning) {
+        this.word = word;
+        this.meaning = meaning;
+    }
+
+    public void update(String title, String content){
         this.word = word;
         this.meaning = meaning;
     }

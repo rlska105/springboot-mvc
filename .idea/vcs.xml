@@ -2,9 +2,5 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
-<<<<<<< HEAD
-    <mapping directory="$PROJECT_DIR$/springboot-mvc" vcs="Git" />
-=======
->>>>>>> 0ea4f528907b12b745734064056c71feeb2e250f
   </component>
 </project>

@@ -2,16 +2,12 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
-<<<<<<< HEAD
-=======
-      <profile default="true" name="Default" enabled="true" />
->>>>>>> 0ea4f528907b12b745734064056c71feeb2e250f
       <profile name="Gradle Imported" enabled="true">
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="false">
           <entry name="$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.10/625fc0055674dff70dbc76efa36d0f2c89b04a24/lombok-1.18.10.jar" />
         </processorPath>
-        <module name="JunitTest.main" />
+        <module name="com.jojoldu.book.JunitTest.main" />
       </profile>
     </annotationProcessing>
   </component>

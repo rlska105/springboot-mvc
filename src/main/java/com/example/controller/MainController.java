@@ -13,6 +13,11 @@ public class MainController {
 
     private WordsService wordsService;
 
+    @GetMapping("/home")
+    public String home() {
+        return "home";
+    }
+
     @GetMapping("/")
     public String main(Model model) {
         return "main";

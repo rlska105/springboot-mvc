@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b6fced8-529e-4ae4-b496-bcdcf1811af0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/controller/dto/WordsUpdateRequestDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/controller/MainControllerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/controller/WordsApiControllerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileContent/fileContent.lock" afterDir="false" />
@@ -16,28 +13,8 @@
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/$CACHE_FILE$" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/controller/MainController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/controller/WordsApiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/controller/WordsApiController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/controller/dto/WordsMainResponseDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/controller/dto/WordsSaveRequestDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/controller/dto/WordsSaveRequestDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/domain/words/WordRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/domain/words/WordsRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/service/words/WordsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/service/words/WordsService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/app/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/app/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/main.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/main.mustache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/words-save.mustache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/controller/SampleControllerTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/domain/words/WordRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/domain/words/WordRepositoryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/service/words/WordsServiceTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +93,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Application">
+  <component name="RunManager" selected="JUnit.WordsApiControllerTest.Posts_등록된다">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.Application" />
       <module name="JunitTest.main" />
@@ -196,8 +173,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.WordRepositoryTest.불러오기" />
         <item itemvalue="JUnit.WordsApiControllerTest.Posts_등록된다" />
+        <item itemvalue="JUnit.WordRepositoryTest.불러오기" />
         <item itemvalue="JUnit.PostsApiControllerTest.Posts_등록된다" />
         <item itemvalue="Application.Application" />
         <item itemvalue="JUnit.MainControllerTest.main" />
@@ -237,22 +214,22 @@
       <screen x="0" y="23" width="2048" height="1075" />
     </state>
     <state x="649" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.2048.1075@0.23.2048.1075" timestamp="1586135494615" />
-    <state width="2006" height="303" key="GridCell.Tab.0.bottom" timestamp="1586394720580">
+    <state width="2006" height="303" key="GridCell.Tab.0.bottom" timestamp="1586396410915">
       <screen x="0" y="23" width="2048" height="1075" />
     </state>
-    <state width="2006" height="303" key="GridCell.Tab.0.bottom/0.23.2048.1075@0.23.2048.1075" timestamp="1586394720580" />
-    <state width="2006" height="303" key="GridCell.Tab.0.center" timestamp="1586394720579">
+    <state width="2006" height="303" key="GridCell.Tab.0.bottom/0.23.2048.1075@0.23.2048.1075" timestamp="1586396410915" />
+    <state width="2006" height="303" key="GridCell.Tab.0.center" timestamp="1586396410915">
       <screen x="0" y="23" width="2048" height="1075" />
     </state>
-    <state width="2006" height="303" key="GridCell.Tab.0.center/0.23.2048.1075@0.23.2048.1075" timestamp="1586394720579" />
-    <state width="2006" height="303" key="GridCell.Tab.0.left" timestamp="1586394720578">
+    <state width="2006" height="303" key="GridCell.Tab.0.center/0.23.2048.1075@0.23.2048.1075" timestamp="1586396410915" />
+    <state width="2006" height="303" key="GridCell.Tab.0.left" timestamp="1586396410915">
       <screen x="0" y="23" width="2048" height="1075" />
     </state>
-    <state width="2006" height="303" key="GridCell.Tab.0.left/0.23.2048.1075@0.23.2048.1075" timestamp="1586394720578" />
-    <state width="2006" height="303" key="GridCell.Tab.0.right" timestamp="1586394720579">
+    <state width="2006" height="303" key="GridCell.Tab.0.left/0.23.2048.1075@0.23.2048.1075" timestamp="1586396410915" />
+    <state width="2006" height="303" key="GridCell.Tab.0.right" timestamp="1586396410915">
       <screen x="0" y="23" width="2048" height="1075" />
     </state>
-    <state width="2006" height="303" key="GridCell.Tab.0.right/0.23.2048.1075@0.23.2048.1075" timestamp="1586394720579" />
+    <state width="2006" height="303" key="GridCell.Tab.0.right/0.23.2048.1075@0.23.2048.1075" timestamp="1586396410915" />
     <state width="2006" height="113" key="GridCell.Tab.1.bottom" timestamp="1586145296162">
       <screen x="0" y="23" width="2048" height="1075" />
     </state>
@@ -273,10 +250,10 @@
       <screen x="0" y="23" width="2048" height="1075" />
     </state>
     <state x="525" y="199" key="SettingsEditor/0.23.2048.1075@0.23.2048.1075" timestamp="1586393787145" />
-    <state width="500" height="445" key="SwitcherDM" timestamp="1586394723227">
+    <state width="500" height="445" key="SwitcherDM" timestamp="1586396268710">
       <screen x="0" y="23" width="2048" height="1075" />
     </state>
-    <state width="500" height="445" key="SwitcherDM/0.23.2048.1075@0.23.2048.1075" timestamp="1586394723227" />
+    <state width="500" height="445" key="SwitcherDM/0.23.2048.1075@0.23.2048.1075" timestamp="1586396268710" />
     <state x="701" y="392" key="com.intellij.ide.util.TipDialog" timestamp="1586393607088">
       <screen x="0" y="23" width="2048" height="1075" />
     </state>

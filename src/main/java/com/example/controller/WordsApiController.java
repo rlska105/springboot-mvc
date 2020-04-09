@@ -19,14 +19,13 @@ public class WordsApiController {
         return wordsService.save(requestDto);
     }
 
-    @PutMapping("/words/{id}")
+    @PutMapping("/api/v1/words/{id}")
     public Long update(@PathVariable Long id, @RequestBody WordsUpdateRequestDto requestDto) {
         return wordsService.update(id, requestDto);
     }
 
-    @GetMapping("/words/{id}")
+    @GetMapping("/api/v1/words/{id}")
     public WordsResponseDto findById(@PathVariable Long id) {
-
         return wordsService.findById(id);
     }
 

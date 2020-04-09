@@ -2,8 +2,42 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b6fced8-529e-4ae4-b496-bcdcf1811af0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/controller/dto/WordsUpdateRequestDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/controller/MainControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/controller/WordsApiControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileContent/fileContent.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/$CACHE_FILE$" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/controller/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/controller/WordsApiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/controller/WordsApiController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/controller/dto/WordsMainResponseDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/controller/dto/WordsSaveRequestDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/controller/dto/WordsSaveRequestDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/domain/words/WordRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/domain/words/WordsRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/service/words/WordsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/service/words/WordsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/app/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/app/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/main.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/main.mustache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/words-save.mustache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/controller/SampleControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/domain/words/WordRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/domain/words/WordRepositoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/service/words/WordsServiceTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,9 +55,22 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
-            <expand />
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="JunitTest" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="JunitTest" type="f1a62948:ProjectNode" />
+                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
+              </path>
+            </expand>
             <select />
           </tree_state>
         </projects_view>
@@ -34,6 +81,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -50,27 +98,25 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="HbShouldOpenHtmlAsHb" value="enabled" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.handlebarsOptions" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
-  <component name="RunManager" selected="Application.Application (1)">
-    <configuration name="Application (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.Application" />
-      <module name="com.jojoldu.book.JunitTest.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.example.controller" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Application">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.Application" />
       <module name="JunitTest.main" />
@@ -84,10 +130,77 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MainControllerTest.main" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JunitTest.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.example.controller.MainControllerTest" />
+      <option name="METHOD_NAME" value="main" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PostsApiControllerTest.Posts_등록된다" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JunitTest.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.example.controller.PostsApiControllerTest" />
+      <option name="METHOD_NAME" value="Posts_등록된다" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WordRepositoryTest.불러오기" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JunitTest.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.domain.words.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.domain.words" />
+      <option name="MAIN_CLASS_NAME" value="com.example.domain.words.WordRepositoryTest" />
+      <option name="METHOD_NAME" value="불러오기" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WordsApiControllerTest.Posts_등록된다" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JunitTest.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.example.controller.WordsApiControllerTest" />
+      <option name="METHOD_NAME" value="Posts_등록된다" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Application (1)" />
+        <item itemvalue="JUnit.WordRepositoryTest.불러오기" />
+        <item itemvalue="JUnit.WordsApiControllerTest.Posts_등록된다" />
+        <item itemvalue="JUnit.PostsApiControllerTest.Posts_등록된다" />
         <item itemvalue="Application.Application" />
+        <item itemvalue="JUnit.MainControllerTest.main" />
       </list>
     </recent_temporary>
   </component>
@@ -104,46 +217,77 @@
     </task>
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="708" y="370" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1585816366224">
       <screen x="0" y="23" width="2048" height="1075" />
     </state>
     <state x="708" y="370" key="#com.intellij.fileTypes.FileTypeChooser/0.23.2048.1075@0.23.2048.1075" timestamp="1585816366224" />
-    <state x="764" y="268" key="#com.intellij.ide.util.MemberChooser" timestamp="1585817417204">
+    <state x="764" y="268" key="#com.intellij.ide.util.MemberChooser" timestamp="1586135536090">
       <screen x="0" y="23" width="2048" height="1075" />
     </state>
-    <state x="764" y="268" key="#com.intellij.ide.util.MemberChooser/0.23.2048.1075@0.23.2048.1075" timestamp="1585817417204" />
-    <state x="873" y="456" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1585819627233">
+    <state x="764" y="268" key="#com.intellij.ide.util.MemberChooser/0.23.2048.1075@0.23.2048.1075" timestamp="1586135536090" />
+    <state x="873" y="456" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1586129437547">
       <screen x="0" y="23" width="2048" height="1075" />
     </state>
-    <state x="873" y="456" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.23.2048.1075@0.23.2048.1075" timestamp="1585819627233" />
-    <state width="2006" height="303" key="GridCell.Tab.0.bottom" timestamp="1585820359343">
+    <state x="873" y="456" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.23.2048.1075@0.23.2048.1075" timestamp="1586129437547" />
+    <state x="649" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1586135494615">
       <screen x="0" y="23" width="2048" height="1075" />
     </state>
-    <state width="2006" height="303" key="GridCell.Tab.0.bottom/0.23.2048.1075@0.23.2048.1075" timestamp="1585820359343" />
-    <state width="2006" height="303" key="GridCell.Tab.0.center" timestamp="1585820359342">
+    <state x="649" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.2048.1075@0.23.2048.1075" timestamp="1586135494615" />
+    <state width="2006" height="303" key="GridCell.Tab.0.bottom" timestamp="1586394720580">
       <screen x="0" y="23" width="2048" height="1075" />
     </state>
-    <state width="2006" height="303" key="GridCell.Tab.0.center/0.23.2048.1075@0.23.2048.1075" timestamp="1585820359342" />
-    <state width="2006" height="303" key="GridCell.Tab.0.left" timestamp="1585820359342">
+    <state width="2006" height="303" key="GridCell.Tab.0.bottom/0.23.2048.1075@0.23.2048.1075" timestamp="1586394720580" />
+    <state width="2006" height="303" key="GridCell.Tab.0.center" timestamp="1586394720579">
       <screen x="0" y="23" width="2048" height="1075" />
     </state>
-    <state width="2006" height="303" key="GridCell.Tab.0.left/0.23.2048.1075@0.23.2048.1075" timestamp="1585820359342" />
-    <state width="2006" height="303" key="GridCell.Tab.0.right" timestamp="1585820359343">
+    <state width="2006" height="303" key="GridCell.Tab.0.center/0.23.2048.1075@0.23.2048.1075" timestamp="1586394720579" />
+    <state width="2006" height="303" key="GridCell.Tab.0.left" timestamp="1586394720578">
       <screen x="0" y="23" width="2048" height="1075" />
     </state>
-    <state width="2006" height="303" key="GridCell.Tab.0.right/0.23.2048.1075@0.23.2048.1075" timestamp="1585820359343" />
-    <state x="525" y="199" key="SettingsEditor" timestamp="1585810752712">
+    <state width="2006" height="303" key="GridCell.Tab.0.left/0.23.2048.1075@0.23.2048.1075" timestamp="1586394720578" />
+    <state width="2006" height="303" key="GridCell.Tab.0.right" timestamp="1586394720579">
       <screen x="0" y="23" width="2048" height="1075" />
     </state>
-    <state x="525" y="199" key="SettingsEditor/0.23.2048.1075@0.23.2048.1075" timestamp="1585810752712" />
-    <state width="500" height="445" key="SwitcherDM" timestamp="1585817476119">
+    <state width="2006" height="303" key="GridCell.Tab.0.right/0.23.2048.1075@0.23.2048.1075" timestamp="1586394720579" />
+    <state width="2006" height="113" key="GridCell.Tab.1.bottom" timestamp="1586145296162">
       <screen x="0" y="23" width="2048" height="1075" />
     </state>
-    <state width="500" height="445" key="SwitcherDM/0.23.2048.1075@0.23.2048.1075" timestamp="1585817476119" />
-    <state x="701" y="392" key="com.intellij.ide.util.TipDialog" timestamp="1585820151419">
+    <state width="2006" height="113" key="GridCell.Tab.1.bottom/0.23.2048.1075@0.23.2048.1075" timestamp="1586145296162" />
+    <state width="2006" height="113" key="GridCell.Tab.1.center" timestamp="1586145296161">
       <screen x="0" y="23" width="2048" height="1075" />
     </state>
-    <state x="701" y="392" key="com.intellij.ide.util.TipDialog/0.23.2048.1075@0.23.2048.1075" timestamp="1585820151419" />
+    <state width="2006" height="113" key="GridCell.Tab.1.center/0.23.2048.1075@0.23.2048.1075" timestamp="1586145296161" />
+    <state width="2006" height="113" key="GridCell.Tab.1.left" timestamp="1586145296161">
+      <screen x="0" y="23" width="2048" height="1075" />
+    </state>
+    <state width="2006" height="113" key="GridCell.Tab.1.left/0.23.2048.1075@0.23.2048.1075" timestamp="1586145296161" />
+    <state width="2006" height="113" key="GridCell.Tab.1.right" timestamp="1586145296161">
+      <screen x="0" y="23" width="2048" height="1075" />
+    </state>
+    <state width="2006" height="113" key="GridCell.Tab.1.right/0.23.2048.1075@0.23.2048.1075" timestamp="1586145296161" />
+    <state x="525" y="199" key="SettingsEditor" timestamp="1586393787145">
+      <screen x="0" y="23" width="2048" height="1075" />
+    </state>
+    <state x="525" y="199" key="SettingsEditor/0.23.2048.1075@0.23.2048.1075" timestamp="1586393787145" />
+    <state width="500" height="445" key="SwitcherDM" timestamp="1586394723227">
+      <screen x="0" y="23" width="2048" height="1075" />
+    </state>
+    <state width="500" height="445" key="SwitcherDM/0.23.2048.1075@0.23.2048.1075" timestamp="1586394723227" />
+    <state x="701" y="392" key="com.intellij.ide.util.TipDialog" timestamp="1586393607088">
+      <screen x="0" y="23" width="2048" height="1075" />
+    </state>
+    <state x="701" y="392" key="com.intellij.ide.util.TipDialog/0.23.2048.1075@0.23.2048.1075" timestamp="1586393607088" />
+    <state x="782" y="294" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1586144243432">
+      <screen x="0" y="23" width="2048" height="1075" />
+    </state>
+    <state x="782" y="294" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.23.2048.1075@0.23.2048.1075" timestamp="1586144243432" />
+    <state x="689" y="262" width="670" height="676" key="search.everywhere.popup" timestamp="1586129617208">
+      <screen x="0" y="23" width="2048" height="1075" />
+    </state>
+    <state x="689" y="262" width="670" height="676" key="search.everywhere.popup/0.23.2048.1075@0.23.2048.1075" timestamp="1586129617208" />
   </component>
 </project>

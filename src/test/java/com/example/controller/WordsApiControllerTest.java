@@ -1,0 +1,71 @@
+package com.example.controller;
+
+import com.example.controller.dto.WordsSaveRequestDto;
+import com.example.domain.words.Words;
+import com.example.domain.words.WordsRepository;
+import org.junit.After;
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.boot.test.web.client.TestRestTemplate;
+import org.springframework.boot.web.server.LocalServerPort;
+import org.springframework.http.HttpEntity;
+import org.springframework.http.HttpMethod;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.test.context.junit4.SpringRunner;
+
+import java.util.List;
+
+import static org.assertj.core.api.Assertions.assertThat;
+
+@RunWith(SpringRunner.class)
+@SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
+public class WordsApiControllerTest {
+
+    @LocalServerPort
+    private int port;
+
+    @Autowired
+    private TestRestTemplate restTemplate;
+
+    @Autowired
+    private WordsRepository wordsRepository;
+
+
+    @After
+    public void tearDown() throws Exception {
+        wordsRepository.deleteAll();
+    }
+
+    @Test
+    public void Posts_등록된다() throws Exception {
+        //given
+        String word = "word";
+        String meaning = "meaning";
+        WordsSaveRequestDto requestDto = WordsSaveRequestDto.builder()
+                .word(word)
+                .meaning(meaning)
+                .build();
+
+        String url = "http://localhost:" + port + "/api/v1/words";
+
+        //when
+        ResponseEntity<Long> responseEntity = restTemplate.postForEntity(url, requestDto, Long.class);
+
+        //then
+        assertThat(responseEntity.getStatusCode()).isEqualTo(HttpStatus.OK);
+        assertThat(responseEntity.getBody()).isGreaterThan(0L);
+
+
+        List<Words> all = wordsRepository.findAll();
+        assertThat(all.get(0).getWord()).isEqualTo(word);
+        assertThat(all.get(0).getMeaning()).isEqualTo(meaning);
+
+
+    }
+
+}
+
+

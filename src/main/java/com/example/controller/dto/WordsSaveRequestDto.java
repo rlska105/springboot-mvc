@@ -13,7 +13,7 @@ public class WordsSaveRequestDto {
 
     private String word;
     private String meaning;
-
+    
     @Builder
     public WordsSaveRequestDto(String word, String meaning) {
         this.word = word;

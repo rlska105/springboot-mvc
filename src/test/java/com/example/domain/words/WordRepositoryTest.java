@@ -19,11 +19,11 @@ import static org.junit.Assert.assertTrue;
 public class WordRepositoryTest {
 
     @Autowired
-    private WordRepository wordRepository;
+    private WordsRepository wordsRepository;
 
     @After
     public void cleanup(){
-        wordRepository.deleteAll();
+        wordsRepository.deleteAll();
     }
 
     @Test
@@ -31,12 +31,12 @@ public class WordRepositoryTest {
         String word = "단어";
         String meaning = "뜻";
 
-        wordRepository.save(Words.builder()
+        wordsRepository.save(Words.builder()
                 .word("단어")
                 .meaning("뜻")
                 .build());
 
-        List<Words> wordsList = wordRepository.findAll();
+        List<Words> wordsList = wordsRepository.findAll();
 
         Words words = wordsList.get(0);
         assertThat(words.getWord()).isEqualTo(word);
@@ -47,12 +47,12 @@ public class WordRepositoryTest {
     public void Time_관리(){
         LocalDateTime now = LocalDateTime.now();
 
-        wordRepository.save(Words.builder()
+        wordsRepository.save(Words.builder()
                 .word("Test")
                 .meaning("Test too")
                 .build());
 
-        List<Words> wordsList = wordRepository.findAll();
+        List<Words> wordsList = wordsRepository.findAll();
 
         Words words = wordsList.get(0);
 

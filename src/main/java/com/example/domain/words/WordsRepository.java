@@ -5,5 +5,6 @@ import org.springframework.data.jpa.repository.Query;
 
 import java.util.List;
 
-public interface WordRepository extends JpaRepository <Words, Long> {
+public interface WordsRepository extends JpaRepository <Words, Long> {
+
 }

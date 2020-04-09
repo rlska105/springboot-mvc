@@ -14,7 +14,7 @@ public class WordsApiController {
 
     private final WordsService wordsService;
 
-    @PostMapping("/api/v1/words")
+    @PostMapping("/words")
     public Long save(@RequestBody WordsSaveRequestDto requestDto) {
         return wordsService.save(requestDto);
     }

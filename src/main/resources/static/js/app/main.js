@@ -4,7 +4,6 @@ var main = {
         $('#btn-save').on('click', function () {
             _this.save();
         });
-
     },
     save : function () {
         var data = {
@@ -14,7 +13,7 @@ var main = {
 
         $.ajax({
             type: 'POST',
-            url: '/api/v1/words',
+            url: '/words',
             dataType: 'json',
             contentType:'application/json; charset=utf-8',
             data: JSON.stringify(data)
@@ -27,4 +26,5 @@ var main = {
     }
 
 };
+
 main.init();

@@ -32,7 +32,6 @@ public class WordsService {
         return id;
     }
 
-
     @Transactional(readOnly = true)
     public WordsResponseDto findById(Long id) {
         Words entity = wordsRepository.findById(id)

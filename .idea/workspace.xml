@@ -4,17 +4,13 @@
     <list default="true" id="4b6fced8-529e-4ae4-b496-bcdcf1811af0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileContent/fileContent.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/jarAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/controller/WordsApiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/controller/WordsApiController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/service/words/WordsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/service/words/WordsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/app/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/app/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +89,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.WordsApiControllerTest.Posts_등록된다">
+  <component name="RunManager" selected="Application.Application">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.Application" />
       <module name="JunitTest.main" />
@@ -214,22 +210,22 @@
       <screen x="0" y="23" width="2048" height="1075" />
     </state>
     <state x="649" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.2048.1075@0.23.2048.1075" timestamp="1586135494615" />
-    <state width="2006" height="303" key="GridCell.Tab.0.bottom" timestamp="1586396410915">
+    <state width="2006" height="303" key="GridCell.Tab.0.bottom" timestamp="1586398519395">
       <screen x="0" y="23" width="2048" height="1075" />
     </state>
-    <state width="2006" height="303" key="GridCell.Tab.0.bottom/0.23.2048.1075@0.23.2048.1075" timestamp="1586396410915" />
-    <state width="2006" height="303" key="GridCell.Tab.0.center" timestamp="1586396410915">
+    <state width="2006" height="303" key="GridCell.Tab.0.bottom/0.23.2048.1075@0.23.2048.1075" timestamp="1586398519395" />
+    <state width="2006" height="303" key="GridCell.Tab.0.center" timestamp="1586398519394">
       <screen x="0" y="23" width="2048" height="1075" />
     </state>
-    <state width="2006" height="303" key="GridCell.Tab.0.center/0.23.2048.1075@0.23.2048.1075" timestamp="1586396410915" />
-    <state width="2006" height="303" key="GridCell.Tab.0.left" timestamp="1586396410915">
+    <state width="2006" height="303" key="GridCell.Tab.0.center/0.23.2048.1075@0.23.2048.1075" timestamp="1586398519394" />
+    <state width="2006" height="303" key="GridCell.Tab.0.left" timestamp="1586398519393">
       <screen x="0" y="23" width="2048" height="1075" />
     </state>
-    <state width="2006" height="303" key="GridCell.Tab.0.left/0.23.2048.1075@0.23.2048.1075" timestamp="1586396410915" />
-    <state width="2006" height="303" key="GridCell.Tab.0.right" timestamp="1586396410915">
+    <state width="2006" height="303" key="GridCell.Tab.0.left/0.23.2048.1075@0.23.2048.1075" timestamp="1586398519393" />
+    <state width="2006" height="303" key="GridCell.Tab.0.right" timestamp="1586398519394">
       <screen x="0" y="23" width="2048" height="1075" />
     </state>
-    <state width="2006" height="303" key="GridCell.Tab.0.right/0.23.2048.1075@0.23.2048.1075" timestamp="1586396410915" />
+    <state width="2006" height="303" key="GridCell.Tab.0.right/0.23.2048.1075@0.23.2048.1075" timestamp="1586398519394" />
     <state width="2006" height="113" key="GridCell.Tab.1.bottom" timestamp="1586145296162">
       <screen x="0" y="23" width="2048" height="1075" />
     </state>
@@ -250,10 +246,10 @@
       <screen x="0" y="23" width="2048" height="1075" />
     </state>
     <state x="525" y="199" key="SettingsEditor/0.23.2048.1075@0.23.2048.1075" timestamp="1586393787145" />
-    <state width="500" height="445" key="SwitcherDM" timestamp="1586396268710">
+    <state width="500" height="445" key="SwitcherDM" timestamp="1586398622946">
       <screen x="0" y="23" width="2048" height="1075" />
     </state>
-    <state width="500" height="445" key="SwitcherDM/0.23.2048.1075@0.23.2048.1075" timestamp="1586396268710" />
+    <state width="500" height="445" key="SwitcherDM/0.23.2048.1075@0.23.2048.1075" timestamp="1586398622946" />
     <state x="701" y="392" key="com.intellij.ide.util.TipDialog" timestamp="1586393607088">
       <screen x="0" y="23" width="2048" height="1075" />
     </state>

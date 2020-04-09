@@ -10,6 +10,9 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+import java.util.List;
+import java.util.stream.Collectors;
+
 @RequiredArgsConstructor
 @Service
 public class WordsService {
@@ -29,11 +32,12 @@ public class WordsService {
         return id;
     }
 
+
+    @Transactional(readOnly = true)
     public WordsResponseDto findById(Long id) {
         Words entity = wordsRepository.findById(id)
                 .orElseThrow(() -> new IllegalArgumentException("해당 사용자가 없습니다. id=" + id));
         return new WordsResponseDto(entity);
     }
-
 
 }

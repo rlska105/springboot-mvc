@@ -1,6 +1,7 @@
 package com.example.service.words;
 
 
+import com.example.controller.dto.WordsListResponseDto;
 import com.example.controller.dto.WordsResponseDto;
 import com.example.controller.dto.WordsSaveRequestDto;
 import com.example.controller.dto.WordsUpdateRequestDto;
@@ -30,6 +31,13 @@ public class WordsService {
                 .orElseThrow(() -> new IllegalArgumentException("해당 사용자가 없습니다. id=" + id));
         words.update(requestDto.getWord(), requestDto.getMeaning());
         return id;
+    }
+
+    @Transactional(readOnly = true)
+    public List<WordsListResponseDto> findAllDesc(){
+        return wordsRepository.findAllDesc().stream()
+                .map(WordsListResponseDto::new)
+                .collect(Collectors.toList());
     }
 
     @Transactional(readOnly = true)

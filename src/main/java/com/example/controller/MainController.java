@@ -9,12 +9,16 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+@RequiredArgsConstructor
 @Controller
 public class MainController {
 
+    private final WordsService wordsService;
+
 
     @GetMapping("/")
-    public String main() {
+    public String main(Model model) {
+        model.addAttribute("words", wordsService.findAllDesc());
         return "main";
     }
 }

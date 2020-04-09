@@ -7,4 +7,7 @@ import java.util.List;
 
 public interface WordsRepository extends JpaRepository <Words, Long> {
 
+    @Query("SELECT p FROM Words p ORDER BY p.id DESC")
+    List<Words> findAllDesc();
+
 }
